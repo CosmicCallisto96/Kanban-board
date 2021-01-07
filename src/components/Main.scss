@@ -1,0 +1,26 @@
+.main
+{
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+   
+    width: 100%;
+    height: 100%;
+    .planned
+    {
+        width: 33.3%;
+    }
+    .started
+    {
+        width: 33.3%;
+    }
+    .done
+    {
+        width: 33.3%;
+    }
+}
+h1{
+    text-align: center;
+}
